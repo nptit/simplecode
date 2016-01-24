@@ -1,0 +1,6 @@
+email.protocol=smtp
+email.host=smtp.126.com
+email.username=zhao1992514@126.com
+email.password=mm901401
+email.auth=true
+email.systemEmail=test2@juvenxu.com
