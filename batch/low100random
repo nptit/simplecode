@@ -1,0 +1,10 @@
+@echo off
+rem 产生100以内随机数，用系统random变量对100取余
+echo 产生100以内随机数
+echo.
+setlocal enabledelayedexpansion
+for /l %%i in (1,1,10) do (
+	set /a randomNum=!random!%%100 
+	echo 随机数: !randomNum!
+	)
+pause
