@@ -1,0 +1,3 @@
+@echo off
+"cmd.exe" /s /k pushd "%cd%"
+pause
